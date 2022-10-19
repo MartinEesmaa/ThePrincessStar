@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartMenu : MonoBehaviour
+public class GoBack : MonoBehaviour
 {
-    public void StartGame() 
+    public void start()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Start_Screen");
     }
 }
