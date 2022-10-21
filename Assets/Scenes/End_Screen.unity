@@ -469,8 +469,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 539586615}
-        m_TargetAssemblyTypeName: EndMenu, Assembly-CSharp
-        m_MethodName: update
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -527,7 +527,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 539586609}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 037670567520cbf4b9ba90050fb42156, type: 3}
+  m_Script: {fileID: 11500000, guid: 55edd5c156fcf8f418897b9a6288e9cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1403588853
