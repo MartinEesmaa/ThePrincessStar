@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EndMenu : MonoBehaviour
 {
-    public void Quit()
+    public void update()
     {
         Application.Quit();
     }
