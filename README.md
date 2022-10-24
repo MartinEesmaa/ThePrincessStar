@@ -18,6 +18,21 @@
 - Add more levels
 - Jump enemy by player to get enemy squashed and score.
 
+
+# Test cases
+
+Test Scenario | Test Case | Test Data | Excepted Result | Actual Result | Pass / Fail |
+--- | --- | --- | --- | --- | --- |
+Controls | Jump | W | Player jumps | Player jumps | ✅ |
+Controls | Jump | A | Player goes left | Player goes left | ✅ |
+Controls | Jump | D | Player goes right | Player goes right | ✅ |
+Levels | Finish line | Checkpoint | Checkpoint goes to next level | Checkpoint goes to next level | ✅ |
+Levels | Finish line by second player mode | Checkpoint, if second player did not reached | After the first player reaches, the second player goes to the finish line before the next level. | After the first player reached it, it moved to the next level without two players' assistance. | :x: |
+Buttons | Click buttons | Click buttons | The gamer presses the buttons. | The gamer presses the buttons. | ✅ |
+Buttons | Different player modes | Click button | The gamer clicks one player mode and the second player is not in this game. | The gamer clicks one player mode and the second player still appears in this game. | :x: |
+
+5 out of 7 were passed the test. 71,42% passed
+
 # Donate to Martin Eesmaa for a cryptocurrencies
 
 - **BTC (BITCOIN):** 
