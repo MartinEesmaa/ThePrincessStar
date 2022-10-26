@@ -24,8 +24,8 @@
 Test Scenario | Test Case | Test Data | Excepted Result | Actual Result | Pass / Fail |
 --- | --- | --- | --- | --- | --- |
 Controls | Jump | W | Player jumps | Player jumps | ✅ |
-Controls | Jump | A | Player goes left | Player goes left | ✅ |
-Controls | Jump | D | Player goes right | Player goes right | ✅ |
+Controls | Left | A | Player goes left | Player goes left | ✅ |
+Controls | Right | D | Player goes right | Player goes right | ✅ |
 Levels | Finish line | Checkpoint | Checkpoint goes to next level | Checkpoint goes to next level | ✅ |
 Levels | Finish line by second player mode | Checkpoint, if second player did not reached | After the first player reaches, the second player goes to the finish line before the next level. | After the first player reached it, it moved to the next level without two players' assistance. | :x: |
 Buttons | Click buttons | Click buttons | The gamer presses the buttons. | The gamer presses the buttons. | ✅ |
