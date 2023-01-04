@@ -1,4 +1,6 @@
-# The Princess Star (deprecated)
+# The Princess Star (deprecated & archived)
+
+***NOTE: This game is no longer development anymore.***
 
 ### Screenshot:
 ![princessstarunity](https://user-images.githubusercontent.com/88035011/196579623-7c471b08-f19e-4807-ad86-0573383e8515.png)
