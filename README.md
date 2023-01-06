@@ -2,6 +2,9 @@
 
 ***NOTE: This game is no longer development anymore.***
 
+# Screenshot:
+![princessstarunity](https://user-images.githubusercontent.com/88035011/196579623-7c471b08-f19e-4807-ad86-0573383e8515.png)
+
 # Build
 
 Before you build this game, you need Git with LFS and Unity Hub with your Unity account & any version (example latest LTS version).
@@ -46,9 +49,6 @@ For Linux having issue for SSL: No usable version of libssl was found.
 You need download stable version through: https://pkgs.org/download/libssl1.0.0
 
 Once installed, open project again in Unity Hub or exit safe mode in Unity Engine.
-
-# Screenshot:
-![princessstarunity](https://user-images.githubusercontent.com/88035011/196579623-7c471b08-f19e-4807-ad86-0573383e8515.png)
 
 # Video:
 
