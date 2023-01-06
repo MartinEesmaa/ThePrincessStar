@@ -2,10 +2,55 @@
 
 ***NOTE: This game is no longer development anymore.***
 
-### Screenshot:
+# Build
+
+Before you build this game, you need Git with LFS and Unity Hub with your Unity account & any version (example latest LTS version).
+
+For Windows: [Download link](https://git-scm.com/download/win).
+
+For macOS: `brew install git-lfs`. You need [Homebrew](https://brew.sh/).
+
+For Linux: `sudo apt install git-lfs`. 
+
+For Fedora, replace apt with dnf. Other OS:
+
+1: Clone with LFS support:
+```
+git lfs clone --depth=1 https://github.com/MartinEesmaa/ThePrincessStar
+```
+
+2: Click "Open project" in Unity Hub, select my game and it will automatically open the project, when it's first time.
+
+This could take about couple minutes for loading project for first time. After first time open, it's ready to run faster, when opening project again.
+
+3: Once Unity Engine opens up, go to File -> Build & Run or Build Settings. Select any folders or create folder to compile the game.
+
+For additional compression, go to Build Settings and select compression method for LZ4HC.
+
+4: Enjoy and run the game :).
+
+### Quick links:
+
+https://git-scm.com/
+
+https://git-lfs.com/
+
+https://unity.com/download
+
+https://brew.sh/
+
+### Troubleshooting
+
+For Linux having issue for SSL: No usable version of libssl was found. 
+
+You need download stable version through: https://pkgs.org/download/libssl1.0.0
+
+Once installed, open project again in Unity Hub or exit safe mode in Unity Engine.
+
+# Screenshot:
 ![princessstarunity](https://user-images.githubusercontent.com/88035011/196579623-7c471b08-f19e-4807-ad86-0573383e8515.png)
 
-### Video:
+# Video:
 
 YouTube: https://www.youtube.com/watch?v=r-YEbrJ_IZM
 
