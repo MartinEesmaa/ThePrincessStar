@@ -11,7 +11,6 @@ public class PlayerLife : MonoBehaviour
     public int playerID;
 
     private int playeronelife = 3;
-    private int playertwolife = 3;
     [SerializeField] private Text player1lifet;
     [SerializeField] private Text player2lifet;
     [SerializeField] private AudioSource deathSoundEffect;

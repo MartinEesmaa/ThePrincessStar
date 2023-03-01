@@ -420,7 +420,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183762845}
-  m_LocalRotation: {x: 0, y: -1e-45, z: 0, w: 1}
+  m_LocalRotation: {x: -1e-45, y: 1e-45, z: 0, w: 1}
   m_LocalPosition: {x: -5.97, y: -1.47, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1228,7 +1228,7 @@ MonoBehaviour:
     InterpolateLerpSpeed: 0
 --- !u!95 &572114803
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1245,7 +1245,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!4 &574312696 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 855265343433405726, guid: 3aa568abcdc61ae4e8d56fe06dd3a744, type: 3}
@@ -82933,7 +82933,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125339596}
-  m_LocalRotation: {x: 0, y: -1e-45, z: 0, w: 1}
+  m_LocalRotation: {x: -1e-45, y: 1e-45, z: 0, w: 1}
   m_LocalPosition: {x: -5.97, y: -1.47, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -83198,7 +83198,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1251658268801484692
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -83215,7 +83215,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &1251658268801484693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83241,11 +83241,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4679235092390534833, guid: e7339b9ed28744740bd3877a180285d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.69
+      value: -1.95
       objectReference: {fileID: 0}
     - target: {fileID: 4679235092390534833, guid: e7339b9ed28744740bd3877a180285d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.12
+      value: 2.42
       objectReference: {fileID: 0}
     - target: {fileID: 4679235092390534833, guid: e7339b9ed28744740bd3877a180285d0, type: 3}
       propertyPath: m_LocalPosition.z
