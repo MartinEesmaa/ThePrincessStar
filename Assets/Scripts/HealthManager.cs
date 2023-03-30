@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class HealthManager : MonoBehaviour
 {
     public static int health = 3;
@@ -14,7 +11,6 @@ public class HealthManager : MonoBehaviour
     {
         health = 3;
     }
-    // Update is called once per frame
     void Update()
     {
         foreach (Image img in hearts)

@@ -1,15 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
 public class PlayerLife : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
     public int playerID;
-
     private int playeronelife = 3;
     [SerializeField] private Text player1lifet;
     [SerializeField] private Text player2lifet;
@@ -17,10 +14,8 @@ public class PlayerLife : MonoBehaviour
     private void Start()
     {
         anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-        
+        rb = GetComponent<Rigidbody2D>();    
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Trap"))
@@ -67,9 +62,7 @@ public class PlayerLife : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        
     }
-
     private void RestartLevel() 
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
