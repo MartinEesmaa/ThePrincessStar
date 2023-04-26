@@ -7,7 +7,9 @@
 
 # Build
 
-Before you build this game, you need Git with LFS and Unity Hub with your Unity account & any version (example latest LTS version).
+Before you build this game, you need Git with LFS and Unity Hub with your Unity account or UniHacker to patch version builds without Unity account & any version (example latest LTS version). 
+
+**It is recommended to use [UniHacker](https://github.com/tylearymf/UniHacker) to patch Unity archive builds or/and Unity Hub without needing Unity account.**
 
 For Windows: [Download link](https://git-scm.com/download/win).
 
@@ -54,9 +56,9 @@ https://brew.sh/
 
 For Linux having issue for SSL: No usable version of libssl was found. 
 
-You need download stable version through: https://pkgs.org/download/libssl1.0.0
+You need download package through: https://pkgs.org/download/libssl1.0.0 or OpenSSL.
 
-Once installed, open project again in Unity Hub or exit safe mode in Unity Engine.
+Once installed, open project again in Unity Hub/Unity Engine or exit safe mode in Unity Engine.
 
 # Video:
 
